@@ -4,12 +4,14 @@
 
 // Pre-state grayscale colors used in other variables
 
-$gray-800: #343a40;
+$gray-800: #ccc;
 
 // Override Bootstrap color system
 
 $orange: #bd5d38;
+$rice-field: #e3f735;
 
 // Override Bootstrap default state colors
 
-$primary: $orange;
+$primary: $rice-field;
+$body-bg: #314151;
