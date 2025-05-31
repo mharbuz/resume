@@ -3,7 +3,7 @@ html(lang='en')
 
     head
 
-        // Google Tag Manager 
+        // Google Tag Manager
         script.
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -33,10 +33,10 @@ html(lang='en')
 
     body#page-top
 
-        // Google Tag Manager (noscript) 
+        // Google Tag Manager (noscript)
         noscript
             iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-NKX244J" height="0" width="0" style="display:none;visibility:hidden")
-        // End Google Tag Manager (noscript) 
+        // End Google Tag Manager (noscript)
 
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-light.bg-primary.fixed-top
@@ -53,9 +53,9 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Education
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#projects') Projects                        
+                        a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
@@ -70,7 +70,7 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-5
-                        | Maciej 
+                        | Maciej
                         span.text-primary Harbuz
                     p.lead.mb-5
                         | As an eCommerce and PHP development professional with over 11 years of experience, I have a deep understanding of the technical intricacies of building and maintaining large-scale eCommerce systems. I am passionate about leveraging the latest technologies to create innovative solutions that deliver attracting customer experience while driving revenue growth.
@@ -94,31 +94,20 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
+                            h3.mb-0 Solution Architect
+                            .subheading.mb-3 The Right Staff
+                            p
+                                | As a Solution Architect, I am responsible for designing and implementing IT solutions for our clients. My role involves working closely with clients to understand their business needs and translating those needs into technical requirements within existing infrastructure or creating new environments.
+                        .flex-shrink-0
+                            span.text-primary December 2024 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
                             h3.mb-0 CTO
                             .subheading.mb-3 FLHF SA
                             p In my role as CTO at FLHF, I am responsible for overseeing the development and maintenance of a variety of systems, including B2C eCommerce (Magento 2), B2B eCommerce (Solex), and a wide range of marketplace integrations (ManoMano, Home24, CDon, Allegro, Amazon, CDiscount, Conforama, eBay, Wayfair). Additionally, I oversee the ERP system (Verto), ensuring that it is fully integrated with our eCommerce platforms and that all data is flowing smoothly between systems.
-                            p One of the ongoing projects is the maintenance of Akeneo PIM for the entire organisation. As part of the project, we carried out the following work:
-                            ul.mb-0 
-                                li Implementation of Akeneo PIM 
-                                li Design of data structures in Akeneo taking into account current products and future implementations, current sales channels and planned implementations of further sales channels
-                                li cooperation with the purchasing department to transfer current data to the PIM
-                                li post-implementation training for the purchasing department
-                                li integration of Akeneo PIM with Magento2 li restilo.pl, including configurable and simple products
-                                li adaptation of Magento2 integration to FLHF requirements, e.g. acceleration of product synchronisation, support for manually generated and created names
-                                li coordination of work on the integration of Akeneo PIM and the B2B platform (B2B implementation was handled by an external company)
-                                li Akeneo PIM upgrades to newer versions (5.0 => 6.0 => 7.0)
-                                li Modules to extend the capabilities of Akeneo PIM
-                                    ul.mb-0
-                                        li Automatic model creation based on variants
-                                        li Data synchronisation with data sources from selected suppliers
-                                        li Image exporter from Akeneo PIM to file server available to sales staff
-                                        li Image importer for the graphics department to improve the process of updating and uploading new product images with automatic image cropping
-                                        li Export of videos to YouTube channel (in progress)
-                                        li Blocking change of assigned product ID
-                                        li improved product exporter to control columns in the product export
-
                         .flex-shrink-0
-                            span.text-primary January 2022 - Present
+                            span.text-primary January 2022 - February 2025
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -140,25 +129,55 @@ html(lang='en')
 
             hr.m-0
 
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 Wrocław University of Technology
-                            .subheading.mb-3 Master of Science
-                            div Computer Science - Faculty of Fundamental Problems of Technology
-                        .flex-shrink-0
-                            span.text-primary October 2007 - June 2012
-
-            hr.m-0
-
             //Projects
             section#projects.resume-section
                 .resume-section-content
                     h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 TRS / Saudi Awwal Bank (HSBC part)
+                            .subheading.mb-3 Java | Google Anthos | next.js
+                            div
+                                | Led the development of a comprehensive One Stop Shop system for Saudi Awwal Bank, enabling customers to access all banking services through a single unified platform. The solution integrates multiple banking services, including account management, investments, and transactions, while ensuring robust security measures and compliance with banking regulations. Implemented using Java microservices architecture on Google Anthos for scalability and reliability, with a modern next.js frontend for an enhanced user experience.
+                        .flex-shrink-0
+                            span.text-primary December 2024 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Mewa
+                            .subheading.mb-3 Magento 2 | Multisite | ERP Integration
+                            div
+                                | Mewa, a creator of 5 distinct brands, crafts their products with passion and precision. Their products are manufactured using the highest quality viscose silk of natural origin, trademarked as Vistex®. The project involved developing a Magento 2 multisite platform to serve e-commerce experience for every brand. The implementation included seamless integration with their ERP system for real-time inventory management, automated order processing, and customer-specific pricing across all sites.
+                        .flex-shrink-0
+                            span.text-primary December 2024 - May 2025
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 FLHF / Akeneo PIM
+                            .subheading.mb-3 Akeneo
+                            div
+                                | One of the ongoing projects in FLHF was the maintenance of Akeneo PIM for the entire organisation. As part of the project, we carried out the following work:
+                            ul.mb-0
+                                li Implementation of Akeneo PIM
+                                li Design of data structures in Akeneo taking into account current products and future implementations, current sales channels and planned implementations of further sales channels
+                                li cooperation with the purchasing department to transfer current data to the PIM
+                                li post-implementation training for the purchasing department
+                                li integration of Akeneo PIM with Magento2 li restilo.pl, including configurable and simple products
+                                li adaptation of Magento2 integration to FLHF requirements, e.g. acceleration of product synchronisation, support for manually generated and created names
+                                li coordination of work on the integration of Akeneo PIM and the B2B platform (B2B implementation was handled by an external company)
+                                li Akeneo PIM upgrades to newer versions (5.0 => 6.0 => 7.0)
+                                li Modules to extend the capabilities of Akeneo PIM
+                                    ul.mb-0
+                                        li Automatic model creation based on variants
+                                        li Data synchronisation with data sources from selected suppliers
+                                        li Image exporter from Akeneo PIM to file server available to sales staff
+                                        li Image importer for the graphics department to improve the process of updating and uploading new product images with automatic image cropping
+                                        li Export of videos to YouTube channel (in progress)
+                                        li Blocking change of assigned product ID
+                                        li improved product exporter to control columns in the product export
+                        .flex-shrink-0
+                            span.text-primary December 2024 - May 2025
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -180,7 +199,7 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 Asgard
                             .subheading.mb-3 Magento 2 | Scandi PWA | personalization module
-                            div Asgard is a direct importer and manufacturer of advertising gifts. They operates mainly in B2B sector and are main vendor of adverising gifts with personalization. During the development of the new Magento 2-based ecommerce, in addition to the standard B2B functionalities, we focused on the best possible product personaliser, which would simultaneously be transparent for customers, but also allow us to use 100% of the potential of Asgard's personalisation machinery. 
+                            div Asgard is a direct importer and manufacturer of advertising gifts. They operates mainly in B2B sector and are main vendor of adverising gifts with personalization. During the development of the new Magento 2-based ecommerce, in addition to the standard B2B functionalities, we focused on the best possible product personaliser, which would simultaneously be transparent for customers, but also allow us to use 100% of the potential of Asgard's personalisation machinery.
                         .flex-shrink-0
                             span.text-primary February 2021 - December 2021
 
@@ -188,8 +207,8 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 Basco2
                             .subheading.mb-3 Akeneo PIM | Magento 2 | ERP Comarch XL
-                            div 
-                                p 
+                            div
+                                p
                                     | Akeneo <br/>
                                     | The project included the basic implementation of Akeneo PIM and the import of the ETIM catalogue (https://etim.org.pl/) into the structures available in PIM.
                                 p
@@ -219,12 +238,12 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 Supon
                             .subheading.mb-3 Shoper
-                            div Supon is a Wrocław-based brand involved in the supply of BPH and PPE items. As part of its digital transformation, it decided to launch an e-commerce platform in SaaS form. 
-                                ul The implementation included: 
-                                    li preparation of the Shoper platform configuration, 
+                            div Supon is a Wrocław-based brand involved in the supply of BPH and PPE items. As part of its digital transformation, it decided to launch an e-commerce platform in SaaS form.
+                                ul The implementation included:
+                                    li preparation of the Shoper platform configuration,
                                     li installation of modules and a graphic template adapted to the characteristics of the industry,
                                     li cooperation with a company responsible for marketing the new shop,
-                                    li migration of products from available sources used for offline sales. 
+                                    li migration of products from available sources used for offline sales.
                         .flex-shrink-0
                             span.text-primary June 2020 - February 2021
 
@@ -240,7 +259,7 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 FTG
                             .subheading.mb-3 Magento 2 | ERP integration | ScandiPWA
-                            div "Best brands in one place" is the motto of FTG Group. Fashion Trends Group was founded in 2007, initially focusing on the football industry and the YesSport brand. In 2015, the company introduced an innovative concept store called SneakerStudio, specializing in streetwear and urban fashion. In April 2019, SneakerStudio underwent a rebranding, focusing on interacting with the younger generation, local artists, and collaborating with musicians and sneaker enthusiasts. In May 2021, FTG opened a new store called SneakerStudioPRM, focusing on the most prestigious brands and limited collections to meet even more demanding customer needs. This is another step in the company's development. 
+                            div "Best brands in one place" is the motto of FTG Group. Fashion Trends Group was founded in 2007, initially focusing on the football industry and the YesSport brand. In 2015, the company introduced an innovative concept store called SneakerStudio, specializing in streetwear and urban fashion. In April 2019, SneakerStudio underwent a rebranding, focusing on interacting with the younger generation, local artists, and collaborating with musicians and sneaker enthusiasts. In May 2021, FTG opened a new store called SneakerStudioPRM, focusing on the most prestigious brands and limited collections to meet even more demanding customer needs. This is another step in the company's development.
                         .flex-shrink-0
                             span.text-primary February 2020 - December 2021
 
@@ -264,10 +283,10 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 MAC
                             .subheading.mb-3 Magento1 | Magento2 | ERP integration
-                            div 
+                            div
                                 | We worked with MAC during 2 projects. The first time as subcontractors in a project to implement an e-commerce platform based on Magento 1. We joined the project before the go live phase and later became the only developers to maintain the system and implement functionality outside the MVP phase. After few years, after the change of e-commerce director, MAC decided to change the e-commerce platform to IAI-Shop (current IdoSell). The change in technology resulted in the cooperation not being continued. After another few years, another change of e-commerce manager and in parallel with the ERP system being implemented into the company, it was decided to implement the new e-commerce platform again on Magento, this time in version 2. The simultaneous implementation of the ERP system, e-commerce system and integration was possible thanks to the full involvement of the IT director on the MAC side in both projects. He was the person who combined knowledge of the processes inside the company, their mapping in the newly created systems and the interrelationships of these systems. Integration of the systems included full synchronization of product information (enriched by marketing on the e-commerce platform), prices, inventories, contractors with individual terms of trade, orders, deliveries.
                         .flex-shrink-0
-                            span.text-primary 
+                            span.text-primary
                                 | January 2019 - December 2021 <br/>
                                 | November 2013 – February 2016
 
@@ -306,7 +325,7 @@ html(lang='en')
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Poczta Kwiatowa
-                            .subheading.mb-3 Magento 1 | Interflora integration | advanced delivery calendar | multi vendor 
+                            .subheading.mb-3 Magento 1 | Interflora integration | advanced delivery calendar | multi vendor
                             div Poczta Kwiatowa was the pioneer of selling flowers through the e-Commerce channel. Now, they are absolute leaders of such service in Poland. The Poczta Kwiatowa® brand is widely recognized amongst polish customers. It’s not really a big surprise – when it comes to sending flowers, time matters. And Poczta Kwiatowa delivers their product in even less than 4 hours. Besides local delivery, company also offers international shipping to over 150 countries. Today, Poczta Kwiatowa determines new floristic trends in Poland. The company was awarded for their services many times. Not only by the customers for their quality, but also by professional e-Commerce organizations.
                         .flex-shrink-0
                             span.text-primary June 2015 - February 2021
@@ -314,16 +333,16 @@ html(lang='en')
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 RGB Automatyka
-                            .subheading.mb-3 Magento 1 
+                            .subheading.mb-3 Magento 1
                             div The mission of RGB Elektronika is to "reduce downtime in industry worldwide through express repair, spare parts delivery and industrial electronics design." As part of the implementation, a dedicated graphic template has been prepared, tailored to the sale of various forms of one product: new, used, repair. Due to the wide range of offered products and the importance of their industrial parameters, support for generating attractive product descriptions from product attributes and predefined templates has been added.
                         .flex-shrink-0
-                            span.text-primary March 2014 - December 2019                            
+                            span.text-primary March 2014 - December 2019
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 4online.pl
                             .subheading.mb-3 Magento 1
-                            div 4onLINE specialize in refurbished laptops and PC sale. It was e-commerce project based on Magento.					
+                            div 4onLINE specialize in refurbished laptops and PC sale. It was e-commerce project based on Magento.
                         .flex-shrink-0
                             span.text-primary October 2015 - April 2016
 
@@ -347,26 +366,41 @@ html(lang='en')
                         .flex-grow-1
                             h3.mb-0 cabas.pl
                             .subheading.mb-3 Magento 1 | multi vendor
-                            div CABAS.pl calls itself “big online market square”. It’s a place that connects local vendors offering their products from all over the country, as well as customers searching for regional culinary specialties. The project is a response to continuously growing market demand for regional food, produced by smaller producers in accordance with traditional recipes and using ingredients of the best quality, which is supposed to be an alternative to mass produced food products. This trend is strongly noticeable in the traditional sales – market stalls are currently experiencing their second youth, while more and more people also choose to shop in the local small stores, instead of supermarkets. CABAS.pl is the first website that brings local market stall sales to a larger scale, reaching out to customers from all over Poland, using e-Commerce and m-Commerce multi-channel sales. On the one hand, sellers may offer their products all over the country, and on the other hand, connoisseurs get a tool through which, they are able to satisfy their needs without leaving home 
+                            div CABAS.pl calls itself “big online market square”. It’s a place that connects local vendors offering their products from all over the country, as well as customers searching for regional culinary specialties. The project is a response to continuously growing market demand for regional food, produced by smaller producers in accordance with traditional recipes and using ingredients of the best quality, which is supposed to be an alternative to mass produced food products. This trend is strongly noticeable in the traditional sales – market stalls are currently experiencing their second youth, while more and more people also choose to shop in the local small stores, instead of supermarkets. CABAS.pl is the first website that brings local market stall sales to a larger scale, reaching out to customers from all over Poland, using e-Commerce and m-Commerce multi-channel sales. On the one hand, sellers may offer their products all over the country, and on the other hand, connoisseurs get a tool through which, they are able to satisfy their needs without leaving home
                         .flex-shrink-0
                             span.text-primary November 2013 - June 2015
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 
+                            h3.mb-0
                                 span(style='text-transform:none') mTIM
                             .subheading.mb-3 Android | iOS | SoapAPI | REST API
-                            div 
-                                | Mobile apps for tim.pl eCommerce: 
-                                a(href='https://play.google.com/store/apps/details?id=pl.tim.mtim', target='_blank') 
-                                    i.fab.fa-android(title='android')  
-                                | and 
-                                a(href='http://polskieapps.pl/iphone-ipad/styl-%C5%BCycia/mtim-cxwwpcp.html', target='_blank') 
+                            div
+                                | Mobile apps for tim.pl eCommerce:
+                                a(href='https://play.google.com/store/apps/details?id=pl.tim.mtim', target='_blank')
+                                    i.fab.fa-android(title='android')
+                                | and
+                                a(href='http://polskieapps.pl/iphone-ipad/styl-%C5%BCycia/mtim-cxwwpcp.html', target='_blank')
                                     i.fab.fa-apple(title='iOS')
                                 | .
                                 | TIM S.A. is one of the largest distributors of electrotechnical goods in Poland. 25 years in the industry, including 17 years on the Warsaw Stock Exchange, is sufficient amount of time to gain priceless experience on the market. This company is also the winner of many prestigious awards, it received among others: Gazele Biznesu, Diament Forbes, etc. Technologies, innovation, mobility – these three words currently constitute the key to development of TIM S.A. This company was first on the market in this sector to provide its offer via Internet to business customers, as well as individual customers, without the need of prior registering or logging in. Investments in the on-line channel have resulted in opening, in summer 2013, high-end online store, fully adapted to the needs of recipients from the electrical power industry
                         .flex-shrink-0
                             span.text-primary November 2014 - January 2023
+
+            hr.m-0
+
+            // Education
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Education
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Wrocław University of Technology
+                            .subheading.mb-3 Master of Science
+                            div Computer Science - Faculty of Fundamental Problems of Technology
+                        .flex-shrink-0
+                            span.text-primary October 2007 - June 2012
 
             hr.m-0
 
@@ -418,7 +452,7 @@ html(lang='en')
                         li.list-inline-item
                             i.fa.fa-file-lines(title='documentation')
                         li.list-inline-item
-                            i.fa.fa-sitemap(title='analysis')    
+                            i.fa.fa-sitemap(title='analysis')
                     ul.list-inline.dev-icons
                         li.list-inline-item
                             i.fab.fa-html5(title='html5')
@@ -443,10 +477,10 @@ html(lang='en')
                 .resume-section-content
                     h2.mb-5 Interests
                     p
-                        | Outside of work, I am an avid stock investor and enjoy staying up-to-date on the latest market trends. I also love staying active and can often be found running or hitting the gym for a workout. 
+                        | Outside of work, I am an avid stock investor and enjoy staying up-to-date on the latest market trends. I also love staying active and can often be found running or hitting the gym for a workout.
                     p.mb-5
-                        | In my spare time I like to play a game of chess 
-                        i.fas.fa-chess 
+                        | In my spare time I like to play a game of chess
+                        i.fas.fa-chess
                         As a combination of my passion for programming and chess, I also try to explore chess engines supported by the Deep Convolutional Networks.
                     p.mb-0
                         | (yes, this page was created with support of AI 😉 )
@@ -460,7 +494,7 @@ html(lang='en')
                         li.mb-1
                             span.fa-li
                                 i.fas.fa-certificate.text-primary
-                            | Droga Nowoczesnego Architekta - droganowoczesnegoarchitekta.pl <br/> 
+                            | Droga Nowoczesnego Architekta - droganowoczesnegoarchitekta.pl <br/>
                             | Jakub Kubryński, Łukasz Szydło, Jakub Pilimon
                         li.mb-1
                             span.fa-li
@@ -498,7 +532,7 @@ html(lang='en')
                             | Google Ads: Fundamentals, Shopping, Search, Mobile - Google Certification
                         li.mb-1
                             span.fa-li
-                                i.fas.fa-certificate.text-primary 
+                                i.fas.fa-certificate.text-primary
                             | Analytics - Google
 
         // Bootstrap core JS
