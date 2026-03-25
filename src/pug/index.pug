@@ -21,12 +21,20 @@ html(lang='en')
 
         link(rel='icon', type='image/png', href='assets/img/favicon.png')
 
+        // Preconnect for external resources
+        link(rel='preconnect', href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+        link(rel='dns-prefetch', href='https://kit.fontawesome.com')
+
+        // Preload LCP image (desktop sidebar)
+        link(rel='preload', as='image', href='assets/img/avatar_real.webp', media='(min-width: 992px)')
+
         // Font Awesome icons (free version)
-        script(src='https://kit.fontawesome.com/309e044cd8.js', crossorigin='anonymous')
+        script(src='https://kit.fontawesome.com/309e044cd8.js', crossorigin='anonymous', defer)
 
         // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap', rel='stylesheet', type='text/css')
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
@@ -42,7 +50,9 @@ html(lang='en')
         nav#sideNav.navbar.navbar-expand-lg.navbar-light.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/avatar_real.png', alt='...')
+                    picture
+                        source(srcset='assets/img/avatar_real.webp', type='image/webp')
+                        img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/avatar_real.png', alt='Maciej Harbuz', width='150', height='150', fetchpriority='high')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
